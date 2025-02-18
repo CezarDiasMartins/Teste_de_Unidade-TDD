@@ -1,0 +1,13 @@
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\obj\Debug\DemoTDD.csproj.AssemblyReference.cache
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\obj\Debug\DemoTDD.csproj.CoreCompileInputs.cache
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\bin\Debug\DemoTDD.dll
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\bin\Debug\DemoTDD.pdb
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\bin\Debug\FluentValidation.dll
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\bin\Debug\FluentValidation.xml
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\obj\Debug\DemoTDD.csproj.Up2Date
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\obj\Debug\DemoTDD.dll
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD\obj\Debug\DemoTDD.pdb

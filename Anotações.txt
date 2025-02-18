@@ -1,0 +1,101 @@
+Repositório(incompleto): https://github.com/gbLw1/Dominando-os-Testes-de-Software/tree/main
+
+-------------------------------------------------
+TESTES:
+
+-> Teste de caixa preta / Alto nível (FrontEnd)
+	- Automatizados(aceitação/regressão);
+
+-> Teste de caixa branca / Baixo nível (BackEnd)
+	- Unidade;
+	- Integração;
+	- Carga;
+
+-------------------------------------------------
+Teste de Unidade
+	- Frameworks:
+		- MSTest;
+		- NUnit;
+		- XUnit(usado no projeto);
+	- Mock:
+		- Framework que vai ser usado: MOQ
+
+
+Nomenclatura:
+ObjetoEmTese_MetodoComportamentoEmTese_EstadoEmTese_ComportamentoEsperado
+Carrinho_AdicionarItem_ItemJaExistenteNoCarrinho_DeveIncrementarUmaUnidadeDoItem
+
+
+Traits: Nomear os testes dentro do "Test Explorer"
+[Fact(DisplayName = "Produtos")]
+[Trait("Categoria", "a")]
+[Fact(DisplayName = "Produtos")]
+[Trait("Categoria", "b")]
+
+
+Asserts(Strings):
+-> Equal(esperado, resutlado)
+	- Comparar pra ver se é igual
+-> Equal(esperado, resutlado, true)
+	- Comparar pra ver se é igual, com o IgnoreCase = true
+-> Contains(algo, completo)
+	- Se contém algo, dentro de completo
+-> StartsWith(comeco, completo)
+	- Vê se o começo está dentro de completo
+-> Matches(expressao, completo)
+	- Para expressão regular. Ex: "[A-Z]{1}[A-Z] + [A-Z]{1}[A-Z]"
+
+Asserts(Números):
+-> Equal(esperado, resutlado)
+	- Comparar pra ver se é igual
+-> NotEqual(esperado, resutlado)
+	- Comparar pra ver se não é igual
+-> NotEqual(esperado, resutlado, precisao)
+	- Comparar pra ver se é igual, com precisão(double)
+
+Asserts(null ou bool):
+-> Null(expressao)
+-> NotNull(expressao)
+-> True(expressao)
+-> False(expressao)
+
+Asserts(Range/Intervalos):
+-> InRange(valor, x, y)
+	- O valor tem que ser de "x" a "y"
+-> NotInRange(valor, x, y)
+	- O valor tem que ser fora de "x" a "y"
+
+Asserts(Object/Types):
+-> IsTypes<Type>(object)
+	- Vê se o objeto é de um tipo
+-> IsAssignableFrom<TypePai>(object)
+	- Vê se o objeto é herdada de um tipo
+
+Asserts(Listas):
+-> Equal(listaEsperada, listaResutlado)
+	- Comparar pra ver se é igual
+-> All(lista, item => ação)
+	- Faz uma ação pra cada item da lista
+-> Contains(item, lista)
+	- Vê se o item contém na lista
+-> DoesNotContains(item, lista)
+	- Vê se o item não contém na lista
+
+Asserts(Exceptions):
+-> Throws<TypeException>(ação)
+	- Vê o tipo de exceção
+
+
+Sem Fixture: Quando um objeto é preparado(tanto dentro do método, quanto no construtor), é construído um novo objeto para cada teste.
+Com Fixture: Você pode usar o mesmo objeto em diferentes classes de testes.
+
+
+Mock: Install-Package MOQ
+AutoMock: Install-Package MOQ.automock
+
+
+-------------------------------------------------
+TDD: Testar antes de escrever o código
+
+* INSTALAR DENTRO DO CORE O FRAMEWORK install-package fluentvalidation
+'-> 037 - Pedido - Aplicar Voucher - Parte 1.mp4
