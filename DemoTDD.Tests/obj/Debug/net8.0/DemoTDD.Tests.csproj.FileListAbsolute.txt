@@ -107,3 +107,4 @@ E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD.Tests\obj\Debug\net8.0\refint\DemoTD
 E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD.Tests\obj\Debug\net8.0\DemoTDD.Tests.pdb
 E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD.Tests\obj\Debug\net8.0\DemoTDD.Tests.genruntimeconfig.cache
 E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD.Tests\obj\Debug\net8.0\ref\DemoTDD.Tests.dll
+E:\Cezar\Workspaces\TesteDeSoftware\DemoTDD.Tests\obj\Debug\net8.0\DemoTDD.Tests.sourcelink.json

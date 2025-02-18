@@ -9,11 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Tests", "Demo.Tests\Demo.Tests.csproj", "{918E4B5E-0289-4674-9F33-608F67DC944B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8F92A1C-6054-407B-83B4-36B1E1C53287}"
-	ProjectSection(SolutionItems) = preProject
-		Anotações.txt = Anotações.txt
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - TDD", "02 - TDD", "{C5E245A6-03C4-4653-BE7D-9016BFCD08AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTDD", "DemoTDD\DemoTDD.csproj", "{6C3B12F3-3ED9-4104-AB15-02E478DB854E}"
